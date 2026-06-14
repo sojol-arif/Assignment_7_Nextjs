@@ -12,7 +12,7 @@ const CountHome = () => {
 
     useEffect(() => {
         const loadFriends = async () => {
-            const response = await fetch("http://localhost:3000/friends.json");
+            const response = await fetch("/friends.json");
             const data = await response.json();
             setStates({
                 totalFriends: data.length,
