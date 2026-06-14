@@ -28,9 +28,9 @@ const FriendDetailsPage = ({ friend }) => {
 
     return (
         <div className="max-w-[1150px] mx-auto py-15 md:py-20 px-5 w-full">
-            <div className="flex flex-wrap gap-6 w-full">
+            <div className="flex flex-col sm:flex-row flex-wrap gap-6 w-full">
                 {/* Left Side */}
-                <div className="max-w-[350px] min-w-[350px] flex-1">
+                <div className="flex-1 sm:flex-0 sm:min-w-[350px]">
                     <div className="shadow-[0_3px_6px_0_rgba(0,0,0,0.08)] rounded-[8px] flex flex-col items-center p-6 bg-white">
                         <Image src={picture} alt="" width={80} height={80} className="rounded-full"></Image>
                         <h3 className="font-semibold text-[16px] md:text-[20px]">{name}</h3>
@@ -54,15 +54,15 @@ const FriendDetailsPage = ({ friend }) => {
                 {/* Right Side */}
                 <div className="flex-1 flex flex-col gap-6">
                     <div className="flex flex-wrap gap-6">
-                        <div className="shadow-[0_1px_6px_0_rgba(0,0,0,0.08)] rounded-[8px] flex flex-col items-center px-4 py-8 bg-white flex-1">
+                        <div className="shadow-[0_1px_6px_0_rgba(0,0,0,0.08)] rounded-[8px] flex flex-col items-center px-4 py-8 bg-white flex-1 min-w-[160px]">
                             <h3 className="text-[24px] md:text-[30px] text-primary font-semibold">{days_since_contact}</h3>
                             <p className="md:text-[18px]">Days Since Contact</p>
                         </div>
-                        <div className="shadow-[0_1px_6px_0_rgba(0,0,0,0.08)] rounded-[8px] flex flex-col items-center px-4 py-8 bg-white flex-1">
+                        <div className="shadow-[0_1px_6px_0_rgba(0,0,0,0.08)] rounded-[8px] flex flex-col items-center px-4 py-8 bg-white flex-1 min-w-[160px]">
                             <h3 className="text-[24px] md:text-[30px] text-primary font-semibold">{goal}</h3>
                             <p className="md:text-[18px]">Goal (Days)</p>
                         </div>
-                        <div className="shadow-[0_1px_6px_0_rgba(0,0,0,0.08)] rounded-[8px] flex flex-col items-center px-4 py-8 bg-white flex-1">
+                        <div className="shadow-[0_1px_6px_0_rgba(0,0,0,0.08)] rounded-[8px] flex flex-col items-center px-4 py-8 bg-white flex-1 sm:min-w-[160px]">
                             <h3 className="text-[24px] md:text-[30px] text-primary font-semibold">{next_due_date}</h3>
                             <p className="md:text-[18px]">Next Due</p>
                         </div>
