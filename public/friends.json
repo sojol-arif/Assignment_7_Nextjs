@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Tariq Hassan",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "tariq.hassan@gmail.com",
+    "days_since_contact": 18,
+    "status": "Almost Due",
+    "tags": ["family", "work"],
+    "bio": "Met during freshman year at BUET. Used to pull all-nighters together before exams. Now works as a civil engineer in Chittagong.",
+    "goal": 14,
+    "next_due_date": "2025-06-20"
+  },
+  {
+    "id": 2,
+    "name": "Priya Nair",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "priya.nair92@outlook.com",
+    "days_since_contact": 5,
+    "status": "on_track",
+    "tags": ["work"],
+    "bio": "Senior dev who onboarded me at my first job. Gave the best code review feedback — brutally honest but always kind.",
+    "goal": 7,
+    "next_due_date": "2025-06-16"
+  },
+  {
+    "id": 3,
+    "name": "Mehedi Hasan",
+    "picture": "https://randomuser.me/api/portraits/men/58.jpg",
+    "email": "mehedi.dev@proton.me",
+    "days_since_contact": 3,
+    "status": "on_track",
+    "tags": ["family", "work"],
+    "bio": "Childhood neighbor turned dev friend. We've been swapping side project ideas since 2018. Currently building a SaaS together.",
+    "goal": 7,
+    "next_due_date": "2025-06-14"
+  },
+  {
+    "id": 4,
+    "name": "Sara Okonkwo",
+    "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+    "email": "sara.okonkwo@yahoo.com",
+    "days_since_contact": 42,
+    "status": "overdue",
+    "tags": ["travel", "hobby"],
+    "bio": "Met backpacking through Southeast Asia in 2022. We navigated a missed train in Bangkok together and have been friends ever since.",
+    "goal": 30,
+    "next_due_date": "2025-07-01"
+  },
+  {
+    "id": 5,
+    "name": "Rafiul Islam",
+    "picture": "https://randomuser.me/api/portraits/men/14.jpg",
+    "email": "rafiul.islam.bd@gmail.com",
+    "days_since_contact": 9,
+    "status": "on_track",
+    "tags": ["work"],
+    "bio": "Our families have been neighbors for 15 years. Grew up playing cricket in the same alley. Now we catch up over biriyani whenever I'm home.",
+    "goal": 10,
+    "next_due_date": "2025-06-18"
+  },
+  {
+    "id": 6,
+    "name": "Lena Müller",
+    "picture": "https://randomuser.me/api/portraits/women/21.jpg",
+    "email": "lena.mueller@berlin.de",
+    "days_since_contact": 61,
+    "status": "overdue",
+    "tags": ["hobby", "family"],
+    "bio": "UX designer I met at a remote hackathon in 2023. She redesigned my portfolio for free just because she thought the layout was a crime.",
+    "goal": 30,
+    "next_due_date": "2025-06-05"
+  },
+  {
+    "id": 7,
+    "name": "Nusrat Jahan",
+    "picture": "https://randomuser.me/api/portraits/women/55.jpg",
+    "email": "nusrat.jahan.bd@gmail.com",
+    "days_since_contact": 2,
+    "status": "on_track",
+    "tags": ["work"],
+    "bio": "Met in our algorithms class. She explained dynamic programming better than any professor ever did. We still debate CS stuff regularly.",
+    "goal": 5,
+    "next_due_date": "2025-06-13"
+  },
+  {
+    "id": 8,
+    "name": "Arjun Menon",
+    "picture": "https://randomuser.me/api/portraits/men/76.jpg",
+    "email": "arjun.menon@hotmail.com",
+    "days_since_contact": 27,
+    "status": "overdue",
+    "tags": ["work", "travel"],
+    "bio": "Co-founder of a startup I almost joined. We still meet up to share product ideas and complain about tech interview culture.",
+    "goal": 21,
+    "next_due_date": "2025-06-08"
+  },
+  {
+    "id": 9,
+    "name": "Fatema Akter",
+    "picture": "https://randomuser.me/api/portraits/women/33.jpg",
+    "email": "fatema.akter22@gmail.com",
+    "days_since_contact": 14,
+    "status": "on_track",
+    "tags": ["family"],
+    "bio": "We bonded over a mutual hatred of a required reading course, then discovered we both actually loved books. Monthly book club ever since.",
+    "goal": 14,
+    "next_due_date": "2025-06-25"
+  },
+  {
+    "id": 10,
+    "name": "David Osei",
+    "picture": "https://randomuser.me/api/portraits/men/90.jpg",
+    "email": "david.osei.gh@gmail.com",
+    "days_since_contact": 88,
+    "status": "overdue",
+    "tags": ["hobby", "family"],
+    "bio": "One of my closest friends from an online dev community. We've never met in person but have talked almost every week for three years — until recently.",
+    "goal": 14,
+    "next_due_date": "2025-05-15"
+  }
+]
