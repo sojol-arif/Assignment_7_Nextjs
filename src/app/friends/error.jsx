@@ -1,12 +1,12 @@
 "use client";
 
-const error = () => {
+const Error = () => {
     return (
-        <div className='max-w-[1000px] mx-auto container py-10'>
-            <h2>Error</h2>
+        <div className='max-w-[1000px] mx-auto container py-15 md:py-20'>
+            <h2 className="text-[40px] font-bold">Error</h2>
             <p className="text-red-500">An error occurred while fetching the food details.</p>
         </div>  
     )
 };
 
-export default error;
+export default Error;

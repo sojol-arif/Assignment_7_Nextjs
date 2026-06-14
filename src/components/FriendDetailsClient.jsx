@@ -81,7 +81,7 @@ const FriendDetailsPage = ({ friend }) => {
                     <div className="flex flex-col p-6 bg-white shadow-[0_1px_6px_0_rgba(0,0,0,0.08)] rounded-[8px]">
                         <h3 className="font-medium text-[20px] text-primary mb-3">Quick Check-In</h3>
                         <div className="flex flex-wrap gap-4 w-full">
-                            <button className="bg-neutral text-neutral-content p-4 rounded-[16px] border border-[#E9E9E9] flex-1 flex flex-col items-center cursor-pointer" onClick={() => handleAddType('call', friend)}>
+                            <button className="bg-neutral hover:bg-[#eef2f6] text-neutral-content p-4 rounded-[16px] border border-[#E9E9E9] flex-1 flex flex-col items-center cursor-pointer transition" onClick={() => handleAddType('call', friend)}>
                                 <Image
                                     src={callImg}
                                     alt={callImg}
@@ -91,7 +91,7 @@ const FriendDetailsPage = ({ friend }) => {
                                 </Image>
                                 <span className="text-[18px]">Call</span>
                             </button>
-                            <button className="bg-neutral text-neutral-content p-4 rounded-[16px] border border-[#E9E9E9] flex-1 flex flex-col items-center cursor-pointer" onClick={() => handleAddType('text', friend)}>
+                            <button className="bg-neutral hover:bg-[#ebeff4] text-neutral-content p-4 rounded-[16px] border border-[#E9E9E9] flex-1 flex flex-col items-center cursor-pointer transition" onClick={() => handleAddType('text', friend)}>
                                 <Image
                                     src={textMessImg}
                                     alt={textMessImg}
@@ -101,7 +101,7 @@ const FriendDetailsPage = ({ friend }) => {
                                 </Image>
                                 <span className="text-[18px]">Text</span>
                             </button>
-                            <button className="bg-neutral text-neutral-content p-4 rounded-[16px] border border-[#E9E9E9] flex-1 flex flex-col items-center cursor-pointer" onClick={() => handleAddType('video', friend)}>
+                            <button className="bg-neutral hover:bg-[#ebeff4] text-neutral-content p-4 rounded-[16px] border border-[#E9E9E9] flex-1 flex flex-col items-center cursor-pointer transition" onClick={() => handleAddType('video', friend)}>
                                 <Image
                                     src={videoImg}
                                     alt={videoImg}
