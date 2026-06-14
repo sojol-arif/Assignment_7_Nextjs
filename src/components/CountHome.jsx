@@ -12,13 +12,13 @@ const CountHome = () => {
 
     useEffect(() => {
         const loadFriends = async () => {
-            const response = await fetch("/friends.json");
+            const response = await fetch("http://localhost:3000/friends.json");
             const data = await response.json();
             setStates({
                 totalFriends: data.length,
                 onTrack: data.filter((friend) => friend.status == 'on_track').length,
                 needAttention: data.filter((friend) => friend.status == 'Almost Due' || friend.status == 'overdue').length,
-                interaction: 0,
+                interaction: 7,
             });
         };
 

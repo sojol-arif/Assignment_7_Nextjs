@@ -8,7 +8,6 @@ export default function Footer() {
     <footer className="bg-primary text-primary-content py-12 px-5 mt-10">
       <div className="max-w-[1150px] mx-auto">
 
-        {/* Top section */}
         <div className="text-center pb-8 border-b border-primary-content/20 mb-6">
           <Link href={"/"} className="text-4xl font-bold text-primary-content mb-3 inline-block">
             <Image 
@@ -27,7 +26,7 @@ export default function Footer() {
           </p>
 
           <div className="flex justify-center gap-3">
-            {/* Instagram */}
+            
             <Link href="#" aria-label="Instagram"
               className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:opacity-80 transition-opacity">
               <svg className="w-[18px] h-[18px] fill-#171717" viewBox="0 0 24 24">
@@ -35,7 +34,7 @@ export default function Footer() {
               </svg>
             </Link>
 
-            {/* Facebook */}
+           
             <Link href="#" aria-label="Facebook"
               className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:opacity-80 transition-opacity">
               <svg className="w-[18px] h-[18px] fill-#171717" viewBox="0 0 24 24">
@@ -43,7 +42,7 @@ export default function Footer() {
               </svg>
             </Link>
 
-            {/* X / Twitter */}
+           
             <Link href="#" aria-label="X"
               className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:opacity-80 transition-opacity">
               <svg className="w-[18px] h-[18px] fill-#171717" viewBox="0 0 24 24">
@@ -53,7 +52,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom section */}
+        
         <div className="flex flex-wrap justify-between items-center gap-2 text-sm text-primary-content/55">
           <span>© 2026 KeenKeeper. All rights reserved.</span>
           <nav className="flex gap-6">

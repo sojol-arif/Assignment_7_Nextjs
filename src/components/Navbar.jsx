@@ -3,16 +3,16 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { ThemeContext } from '../context/TimelineProvider';
 import Logo from '../assets/logo.png';
-import homeIcon from '../assets/home.svg';
-import clockIcon from '../assets/clock.svg';
-import chartIcon from '../assets/chart.svg';
+import { RiHome2Line  } from 'react-icons/ri';
+import { LuClock3 } from "react-icons/lu";
+import { FaChartLine } from "react-icons/fa6";
 import { usePathname } from 'next/navigation';
 import { useContext, useState } from 'react';
 
 const Links = [
-    { name: 'Home', href: '/', icon: homeIcon },
-    { name: 'Timeline', href: '/timeline', icon: clockIcon },
-    { name: 'Stats', href: '/stats', icon: chartIcon },
+    { name: 'Home', href: '/', icon: <RiHome2Line  className='w-[20px] h-[20px]'/> },
+    { name: 'Timeline', href: '/timeline', icon: <LuClock3  className='w-[20px] h-[20px]' /> },
+    { name: 'Stats', href: '/stats', icon: <FaChartLine  className='w-[20px] h-[20px]' /> },
 ];
 
 const Navbar = () => {
@@ -36,7 +36,7 @@ const Navbar = () => {
                             {Links.map((link) => (
                                 <li key={link.name}>
                                     <Link href={link.href} className="flex items-center gap-1">
-                                        <Image src={link.icon} alt={link.name} width={20} height={20} />
+                                        <span>{link.icon}</span>
                                         {link.name}
                                     </Link>
                                 </li>
@@ -52,8 +52,8 @@ const Navbar = () => {
                         {Links.map((link) => (
                             <li key={link.name}>
                                 <Link href={link.href} className={`flex items-center gap-1 ${pathname === link.href ? 'text-white bg-accent' : ''}`}>
-                                    <Image src={link.icon} alt={link.name} width={20} height={20} />
-                                    {link.name} {link.name == 'Timeline'? timelineLength : ''}
+                                    <span className='w-[20px] h-[20px]'>{link.icon}</span>
+                                    {link.name} {link.name == 'Timeline' ? timelineLength : ''}
                                 </Link>
                             </li>
                         ))}
