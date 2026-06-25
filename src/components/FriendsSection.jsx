@@ -8,7 +8,7 @@ const FriendsSection = () => {
 
     useEffect(() => {
         const loadFriends = async () => {
-            const response = await fetch("https://assignment7nextjsbatch13-n5zha7dhv-arif-s-projects3.vercel.appfriends.json");
+            const response = await fetch("https://assignment7nextjsbatch13.vercel.app/friends.json");
             const data = await response.json();
             setFriends(data);
         };

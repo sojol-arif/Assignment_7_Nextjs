@@ -1,3 +1,49 @@
+🤝 KeenKeeper — Keep Your Friendships Alive
+A smart friend relationship management app that helps you stay connected with the people who matter most.
+
+🛠️ Technologies Used
+Next.js — React framework for server-side rendering and routing
+React — Component-based UI development
+Tailwind CSS — Utility-first CSS styling
+MongoDB — NoSQL database for storing friend data
+Node.js / Express — Backend API server
+Firebase — Authentication and hosting
+
+✨ Key Features
+
+1. 📋 Friend Contact Tracker
+
+Keep track of when you last contacted each friend with a visual indicator showing days since last contact — so no friendship ever slips through the cracks.
+
+2. 🏷️ Smart Status & Tag Filtering
+
+Filter your friends by relationship status (On Track, Almost Due, Overdue) and custom tags, making it easy to prioritize who needs your attention next.
+
+3. 📊 Relationship Stats Dashboard
+
+Get a bird's-eye view of your social life with stats showing total friends, overdue connections, and upcoming check-ins — all in one place.
+
+
+🚀 Live Demo
+
+🔗 assignment7nextjsbatch13.vercel.app
+
+
+📦 Getting Started
+
+bash# Clone the repository
+git clone https://github.com/your-username/assignment_7_project.git
+
+# Navigate into the project
+cd assignment_7_project
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
